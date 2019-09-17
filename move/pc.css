@@ -1,0 +1,258 @@
+   /* VANS  VIVIENNE WESTWOOD 联名系列 */
+.specialMove .westwoodImg1 {
+    -webkit-animation:westwoodImg1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation:westwoodImg1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    /* transition: all 2s ease-in-out; */
+}
+.specialMove .westwoodImg2 {
+    -webkit-animation: westwoodImg2 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     animation: westwoodImg2 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     /* transition: all 2s ease-in-out; */
+}
+.specialMove .westwoodImg3 {
+    -webkit-animation: westwoodImg3 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: westwoodImg3 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    /* transition: all 2s ease-in-out; */
+}
+.plain .westwoodImg2,
+.plain .westwoodImg3 {
+    transform: translateY(200px);
+    transform: translateX(200px);
+    opacity: 1;
+}
+.plain .westwoodImg1 {
+    transform: scale(1.5);
+}
+
+/* 自定义区域 */
+/* .trans {
+    transition: all 2s ease-in-out;
+} */
+
+@-webkit-keyframes westwoodImg1 {
+    0% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes westwoodImg1 {
+    0% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+@-webkit-keyframes westwoodImg2 {
+    0% {
+        -webkit-transform: translateY(200px);
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes westwoodImg2 {
+    0% {
+        -webkit-transform: translateY(200px);
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+@-webkit-keyframes westwoodImg3 {
+    0% {
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes westwoodImg3 {
+    0% {
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/* .westwoodImg4 {
+-webkit-animation:westwoodImg4 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation:westwoodImg4 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes westwoodImg4 {
+0% {
+-webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+}
+@keyframes westwoodImg4 {
+0% {
+-webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+} */
+
+
+/* .westwoodImg2-1 {
+    -webkit-animation:westwoodImg2-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation:westwoodImg2-1 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes westwoodImg2-1{
+    0% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes westwoodImg2-1{
+    0% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.westwoodImg2-2{
+    -webkit-animation: westwoodImg2-2 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: westwoodImg2-2 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes westwoodImg2-2 {
+    0% {
+        -webkit-transform: translateY(1000px);
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes westwoodImg2-2 {
+    0% {
+        -webkit-transform: translateY(1000px);
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.westwoodImg2-3 {
+    -webkit-animation: westwoodImg2-3 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: westwoodImg2-3 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes westwoodImg2-3 {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes westwoodImg2-3 {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.westwoodImg2-4 {
+-webkit-animation:westwoodImg2-4 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation:westwoodImg2-4 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes westwoodImg2-4 {
+0% {
+-webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+}
+@keyframes westwoodImg2-4 {
+0% {
+-webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+} */
